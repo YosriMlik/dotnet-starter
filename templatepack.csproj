@@ -5,7 +5,7 @@
     <PackageVersion>1.0.0</PackageVersion>
     <PackageId>WebAPI.FeatureSlice.Template</PackageId>
     <Title>Web API Feature Slice Template</Title>
-    <Authors>Your Name</Authors>
+    <Authors>Yosri Mlik</Authors>
     <Description>A modern .NET Web API template with feature-based organization, inspired by NestJS</Description>
     <PackageTags>dotnet-new;templates;webapi;api;features;clean-architecture</PackageTags>
     <PackageProjectUrl>https://github.com/YosriMlik/dotnet-starter</PackageProjectUrl>

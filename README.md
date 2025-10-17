@@ -163,8 +163,3 @@ Inspired by:
 - [Vertical Slice Architecture](https://www.jimmybogard.com/vertical-slice-architecture/)
 - Clean Architecture principles
 
-## Support
-
-- 📖 [Documentation](https://github.com/yourusername/webapi-template/wiki)
-- 🐛 [Report Issues](https://github.com/yourusername/webapi-template/issues)
-- 💬 [Discussions](https://github.com/yourusername/webapi-template/discussions)
