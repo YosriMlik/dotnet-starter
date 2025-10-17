@@ -1,0 +1,43 @@
+# ===================================
+# Template Repository .gitignore
+# ===================================
+
+# Build outputs (from testing the template)
+bin/
+obj/
+
+# NuGet packages output
+nupkg/
+*.nupkg
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# IDE folders (don't include in template)
+.vs/
+.vscode/
+.idea/
+
+# Environment files
+*.env
+*.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# SQLite database (from testing)
+*.db
+*.db-shm
+*.db-wal
+
+# Test projects created during development
+TestApi/
+test-*/
+temp-*/
+
+# NuGet local cache
+.nuget/

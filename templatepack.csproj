@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageType>Template</PackageType>
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageId>WebAPI.FeatureSlice.Template</PackageId>
+    <Title>Web API Feature Slice Template</Title>
+    <Authors>Your Name</Authors>
+    <Description>A modern .NET Web API template with feature-based organization, inspired by NestJS</Description>
+    <PackageTags>dotnet-new;templates;webapi;api;features;clean-architecture</PackageTags>
+    <PackageProjectUrl>https://github.com/yourusername/webapi-template</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/yourusername/webapi-template</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    
+    <TargetFramework>net8.0</TargetFramework>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    <NoWarn>$(NoWarn);NU5128</NoWarn>
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="**\*" Exclude="**\bin\**;**\obj\**;**\.vs\**;**\.vscode\**;**\.git\**;**\*.user;**\*.db;**\*.db-*;templatepack.csproj;install-template.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="**\*" />
+  </ItemGroup>
+
+</Project>

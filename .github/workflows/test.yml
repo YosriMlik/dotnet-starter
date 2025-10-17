@@ -1,0 +1,36 @@
+name: Test Template
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0.x'
+    
+    - name: Install template locally
+      run: dotnet new install .
+    
+    - name: Create test project
+      run: dotnet new webapi-features -n TestProject -o ./test-output
+    
+    - name: Build test project
+      run: dotnet build ./test-output/TestProject.csproj
+    
+    - name: Run test project
+      run: |
+        cd test-output
+        timeout 10s dotnet run || true
+    
+    - name: Cleanup
+      run: dotnet new uninstall .

@@ -1,0 +1,10 @@
+@webapi_HostAddress = http://localhost:5000
+
+### Get Weather Forecast
+GET {{webapi_HostAddress}}/api/weather
+Accept: application/json
+
+### Swagger UI
+# Open in browser: http://localhost:5000/swagger
+
+###
