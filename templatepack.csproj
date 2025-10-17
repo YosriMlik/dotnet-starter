@@ -8,8 +8,8 @@
     <Authors>Your Name</Authors>
     <Description>A modern .NET Web API template with feature-based organization, inspired by NestJS</Description>
     <PackageTags>dotnet-new;templates;webapi;api;features;clean-architecture</PackageTags>
-    <PackageProjectUrl>https://github.com/yourusername/webapi-template</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/yourusername/webapi-template</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/YosriMlik/dotnet-starter</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/YosriMlik/dotnet-starter</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     
     <TargetFramework>net8.0</TargetFramework>

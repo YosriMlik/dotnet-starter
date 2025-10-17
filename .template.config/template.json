@@ -45,8 +45,10 @@
       "exclude": [
         ".vscode/**/*",
         ".vs/**/*",
+        ".idea/**/*",
         "bin/**/*",
         "obj/**/*",
+        "nupkg/**/*",
         "*.db",
         "*.db-shm",
         "*.db-wal",
@@ -54,7 +56,17 @@
         ".template.config/**/*",
         "templatepack.csproj",
         "install-template.*",
-        "TEMPLATE_README.md"
+        "test-template.*",
+        "*_README.md",
+        "*_GUIDE.md",
+        "*_SETUP.md",
+        "CHECKLIST.md",
+        "PUBLISH_GUIDE.md",
+        "GITHUB_SETUP.md",
+        "TEMPLATE_README.md",
+        ".git/**/*",
+        ".github/**/*",
+        "Migrations/**/*"
       ]
     }
   ]
